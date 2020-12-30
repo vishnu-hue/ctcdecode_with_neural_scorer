@@ -1,5 +1,17 @@
 # ctcdecode_with_neural_scorer
-Installation
+requirements:
+
+Torch
+
+numpy
+
+onnxruntime
+
+onnx
+
+transformers
+
+Installation:
 
 >wget https://github.com/vishnu-hue/ctcdecode_with_neural_scorer.git
 
@@ -7,8 +19,8 @@ Installation
 
 >pip install .
 
-Example
+Example:
 
->python3 gpt2export.py
+>python3 gpt2_export.py
 
 >python3 test.py
